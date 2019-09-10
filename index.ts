@@ -1,1 +1,1 @@
-export { default as sum } from './src/sum';
+export { Baratheon, Lannister, Stark, Targaryen } from './src/Houses';
