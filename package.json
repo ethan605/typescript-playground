@@ -9,7 +9,8 @@
     "url": "https://github.com/ethan605/typescript-playground"
   },
   "scripts": {
-    "build": "jest && gulp build",
+    "prebuild": "jest",
+    "build": "gulp build",
     "build:declaration": "tsc --project tsconfig.declaration.json",
     "console": "babel-node --extensions \".ts\"",
     "lint": "eslint . --ext .ts,.tsx",
