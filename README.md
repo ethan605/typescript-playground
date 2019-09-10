@@ -5,13 +5,13 @@ A (simple) way to bootstrap a TypeScript playground equipped with ESLint, Jest, 
 
 Just ensure that Node packages are installed properly by running:
 
-```shell
+```bash
 $ yarn install
 ```
 
 or
 
-```shell
+```bash
 $ npm install
 ```
 
@@ -19,13 +19,13 @@ $ npm install
 
 The playground is already equipped with [Jest](https://github.com/facebook/jest) and compatible with TypeScript, hence all the tests which are placed under `__tests__` folders with naming convention of `<moduleName>.spec.ts` will be triggered with a single NPM script:
 
-```shell
+```bash
 $ yarn test
 ```
 
 or
 
-```shell
+```bash
 $ npm run test
 ```
 
@@ -40,12 +40,12 @@ There're two steps of packaging:
 
 All should be done using the built-in script:
 
-```shell
+```bash
 $ yarn build
 ```
 
 or
 
-```shell
+```bash
 $ npm run build
 ```
