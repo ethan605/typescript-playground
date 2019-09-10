@@ -1,4 +1,5 @@
-import { Baratheon, Lannister, Stark, Targaryen } from '../src/HousesThatWork';
+import { Baratheon, Lannister, Stark, Targaryen } from '../src/Houses';
+// import { Baratheon, Lannister, Stark, Targaryen } from '../src/HousesThatWork';
 
 describe('Houses', () => {
   it('should come along with correct words', () => {
