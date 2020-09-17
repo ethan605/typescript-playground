@@ -1,4 +1,5 @@
 # typescript-playground
+
 A (simple) way to bootstrap a TypeScript playground equipped with ESLint, Jest, Babel &amp; Parcel
 
 ## Before playing
@@ -6,13 +7,13 @@ A (simple) way to bootstrap a TypeScript playground equipped with ESLint, Jest, 
 Just ensure that Node packages are installed properly by running:
 
 ```bash
-$ yarn install
+$ npm install
 ```
 
 or
 
 ```bash
-$ npm install
+$ yarn install
 ```
 
 ## Testing
@@ -20,13 +21,13 @@ $ npm install
 The playground is already equipped with [Jest](https://github.com/facebook/jest) and compatible with TypeScript, hence all the tests which are placed under `__tests__` folders with naming convention of `<moduleName>.spec.ts` will be triggered with a single NPM script:
 
 ```bash
-$ yarn test
+$ npm run test
 ```
 
 or
 
 ```bash
-$ npm run test
+$ yarn test
 ```
 
 ## Packaging
@@ -35,17 +36,17 @@ Like Jest, [Parcel](https://github.com/parcel-bundler/parcel) is already equippe
 
 There're two steps of packaging:
 
-  1. Compile TypeScript into JavaScript using `tsconfig.build.json` configurations
-  2. Bundle all the output files into a single one (along with mapping file) with Parcel
+1. Compile TypeScript into JavaScript using `tsconfig.build.json` configurations
+2. Bundle all the output files into a single one (along with mapping file) with Parcel
 
 All should be done using the built-in script:
 
 ```bash
-$ yarn build
+$ npm run build
 ```
 
 or
 
 ```bash
-$ npm run build
+$ yarn build
 ```
