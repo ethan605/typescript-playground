@@ -18,7 +18,9 @@ $ yarn install
 
 ## Testing
 
-The playground is already equipped with [Jest](https://github.com/facebook/jest) and compatible with TypeScript, hence all the tests which are placed under `__tests__` folders with naming convention of `<moduleName>.spec.ts` will be triggered with a single NPM script:
+The playground is already equipped with [Jest](https://github.com/facebook/jest) and compatible with TypeScript,
+hence all the tests which are placed under `__tests__` folders with naming convention of `<moduleName>.spec.ts`
+will be triggered with a single NPM script:
 
 ```bash
 $ npm run test
@@ -32,7 +34,8 @@ $ yarn test
 
 ## Packaging
 
-Like Jest, [Parcel](https://github.com/parcel-bundler/parcel) is already equipped because of its simplicity and ease of use (over [Webpack](https://github.com/webpack/webpack))
+Like Jest, [Parcel](https://github.com/parcel-bundler/parcel) is already equipped because of its simplicity
+and ease of use (over [Webpack](https://github.com/webpack/webpack))
 
 There're two steps of packaging:
 
